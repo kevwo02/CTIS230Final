@@ -14,7 +14,7 @@ font-size: large;
 height: 5px;
 margin-top: 4%;
 margin-bottom: 5%;
-/* border: 2px dotted black; */
+border: 2px dotted black;
 text-align:center;
 }
 
@@ -33,7 +33,7 @@ div.foot{
     margin-bottom: 2em; */
     text-align: center;
     justify-content: space-between;
-    /* border: 2px dotted white */
+    border: 2px dotted white
 }
 
 body{
