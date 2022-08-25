@@ -1,0 +1,47 @@
+div.NavBar{
+display: flex;
+border: 2px dotted brown;
+
+}
+
+div.nb{
+    width: 100%;
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 2%;
+margin-right: 2%;
+font-size: large;
+height: 5px;
+margin-top: 4%;
+margin-bottom: 5%;
+border: 2px dotted black;
+text-align:center;
+}
+
+div#footer{
+    display: flex;
+   
+ 
+}
+
+div.foot{
+    width: 50%;
+    font-size: 14pt;
+    padding-top: 4em;
+    /* padding-bottom: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em; */
+    text-align: center;
+    justify-content: space-between;
+    /* border: 2px dotted white */
+}
+
+body{
+ background-color:mediumaquamarine;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+}
+
