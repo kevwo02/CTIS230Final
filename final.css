@@ -1,6 +1,6 @@
 div.NavBar{
 display: flex;
-border: 2px dotted brown;
+/* border: 2px dotted brown; */
 
 }
 
@@ -14,7 +14,7 @@ font-size: large;
 height: 5px;
 margin-top: 4%;
 margin-bottom: 5%;
-border: 2px dotted black;
+/* border: 2px dotted black; */
 text-align:center;
 }
 
