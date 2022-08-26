@@ -37,7 +37,7 @@ div.foot{
 }
 
 body{
- background-color:mediumaquamarine;
+ background-color:lightslategray;
 }
 
 h1{
@@ -45,3 +45,32 @@ h1{
     color: azure;
 }
 
+div.wit{
+    overflow: hidden;
+    background-color: peru;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+div.history{
+    overflow: hidden;
+    background-color: peru;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
