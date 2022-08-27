@@ -95,11 +95,7 @@ img#imgsens{
     height: 300px;
     float:right;
     position:static;
-  padding-bottom: auto;
-  padding-right: auto;
-  padding-left: auto;
-margin-right: auto;
-display: block;
+  margin:.2em;
 }
 
 div.history{
@@ -107,12 +103,12 @@ div.history{
     background-color: peru;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 2px;
     font-size: 2.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width:1300px;
@@ -133,5 +129,5 @@ img#gHome{
     width:200px;
     height:200px;
     float:right;
-    top:200px
+   margin: 1em;
 }
