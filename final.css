@@ -20,7 +20,7 @@ margin-right: 0.025%;
 }
 
 div.nb{
-    width: 100%;
+    width: 20%;
 padding-top: 5%;
 padding-bottom: 5%;
 margin-left: 2%;
@@ -29,7 +29,7 @@ font-size: large;
 
 margin-top: 4%;
 margin-bottom: 5%;
-/* border: 2px dotted white;  */
+/* border: 2px dotted white;   */
 text-align:center;
 justify-content:center;
 position: relative;
@@ -133,3 +133,59 @@ img#gHome{
 }
 
 
+.dropdown {
+    overflow: hidden;
+    float: left;
+    color:bisque;
+    /* border: 2px dotted white; */
+   margin-top: 10px;
+   margin-right: 25px;
+   margin-bottom: 5px;
+   margin-left: 10px;
+ left: 20px;
+   
+}
+
+.dropdown .dropbtn {
+    background-color: black;
+    color: bisque;
+    font-size: medium;
+/* need to fix the font */
+    border: none;
+    outline: none;
+    padding: 10.5px 30px;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: left;
+    left: 20px;
+}
+
+.navigationBar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(35, 62, 78, 1)
+}
+
+.Tcontent {
+    background-color: rgba(226, 217, 196, 1);
+    display: none;
+    position: absolute;
+    
+   
+}
+
+
+.Tcontent a,  a{
+    display: block;
+    color: rgba(24, 16, 8,1);
+    float: none;
+    text-decoration: none;
+    text-align: left;
+    padding: 12px 40px;
+}
+
+.Tcontent a:hover {
+    background-color: rgba(35, 62, 78, 0.5);
+}
+
+.dropdown:hover .Tcontent, .dropdown:hover .bdropdown-content {
+    display: block;
+}
