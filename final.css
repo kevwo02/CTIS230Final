@@ -12,6 +12,8 @@ margin-bottom: 8%;
 margin-left: 0.025%;
 margin-right: 0.025%;
 width: 100%;
+text-align: left;
+justify-content: space-around;
 
 
 
@@ -26,12 +28,12 @@ padding-top: 5%;
 padding-bottom: 5%;
 margin-left: 2%;
 margin-right: 2%;
-font-size: medium;
+font-size: large;
 
 margin-top: 4%;
 margin-bottom: 5%;
 /* border: 2px dotted white;   */
-text-align:center;
+text-align:left;
 justify-content:center;
 position: relative;
 bottom: 100px;
@@ -83,7 +85,7 @@ div.wit{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.2em;
     height: 600px;
-    width: 1300px;
+    width: 90%;
   
 
 }
@@ -113,7 +115,7 @@ div.history{
     padding-bottom: 2px;
     font-size: 2.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width:1300px;
+    width:90%;
 
 }
 
@@ -126,6 +128,7 @@ div.histop{
     font-size: larger;
     font-weight: lighter;
     width: 100%;
+
 }
 
 img#gHome{
@@ -140,31 +143,36 @@ img#gHome{
     overflow: hidden;
     float: left;
     color:bisque;
-    /* border: 2px dotted white;  */
+    /* border: 2px dotted white;   */
    margin-top: 11px;
    margin-right:70px;
    margin-bottom: 5px;
    margin-left: 10px;
    text-align: right;
- left: 50px;
+ 
  padding-left: 10px;
+position: relative;
+left:2px;
+top: 2px;
    
 }
 
 .dropdown .dropbtn {
     background-color: black;
     color: bisque;
-    font-size: 11pt;
+    font-size: 12pt;
 /* need to fix the font */
     border: none;
     outline: none;
     padding: 10.5px 30px;
     margin-right: 10px;
     margin-left: 1px;
+
     text-align: left;
     justify-content: left;
     left: 80px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .navigationBar a:hover, .dropdown:hover .dropbtn {
