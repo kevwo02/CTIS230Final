@@ -1,6 +1,21 @@
+body{
+   background-color: hsl(0, 4%, 55%);
+
+}
+
 div.NavBar{
 display: flex;
-/* border: 2px dotted brown; */
+ /* border: 2px dotted #a52a2a;  */
+background-color: black;
+height: 75px;
+margin-bottom: 8%; 
+margin-left: 0.025%;
+margin-right: 0.025%;
+
+
+
+
+
 
 }
 
@@ -11,13 +26,19 @@ padding-bottom: 5%;
 margin-left: 2%;
 margin-right: 2%;
 font-size: large;
-height: 5px;
+
 margin-top: 4%;
 margin-bottom: 5%;
-/* border: 2px dotted black; */
+/* border: 2px dotted white;  */
 text-align:center;
-}
+justify-content:center;
+position: relative;
+bottom: 100px;
 
+}
+div.nb a{
+    color:bisque
+}
 div#footer{
     display: flex;
    
@@ -36,14 +57,15 @@ div.foot{
     /* border: 2px dotted white */
 }
 
-body{
- background-color:lightslategray;
-}
+
 
 h1{
     text-align: center;
     color: azure;
+    font-size: 5em;
 }
+
+
 
 div.wit{
     overflow: hidden;
@@ -54,10 +76,30 @@ div.wit{
     margin-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 12px;
+    padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.4em;
+    font-size: 2.2em;
+    height: 600px;
+    width: 1300px;
+  
+
+}
+
+div.wit h1{
+    font-size: 1.8em;
+}
+
+img#imgsens{
+    width: 350px;
+    height: 300px;
+    float:right;
+    position:static;
+  padding-bottom: auto;
+  padding-right: auto;
+  padding-left: auto;
+margin-right: auto;
+display: block;
 }
 
 div.history{
@@ -71,6 +113,25 @@ div.history{
     padding-right: 25px;
     padding-top: 12px;
     padding-bottom: 12px;
-    font-size: 1.4em;
+    font-size: 2.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:1300px;
+
+}
+
+div.history h1{
+    font-size: 1.8em;
+}
+
+div.histop{
+    background-color: chocolate;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+img#gHome{
+    width:200px;
+    height:200px;
+    float:right;
+    top:200px
 }
