@@ -28,7 +28,7 @@ padding-top: 5%;
 padding-bottom: 5%;
 margin-left: 2%;
 margin-right: 2%;
-font-size: large;
+font-size: 1.2em;
 
 margin-top: 4%;
 margin-bottom: 5%;
@@ -140,20 +140,39 @@ img#gHome{
 
 
 .dropdown {
-    overflow: hidden;
+    width: 20%;
+padding-top: 2%;
+padding-bottom: 5%;
+margin-left: 2%;
+margin-right: 2%;
+font-size: 1.2em;
+
+margin-top: 4%;
+margin-bottom: 5%;
+/* border: 2px dotted white;   */
+text-align:left;
+justify-content:center;
+position: relative;
+top: -67px;
+left: -20px;
+font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden;
     float: left;
     color:bisque;
-    /* border: 2px dotted white;   */
+    border: 2px dotted white;  
    margin-top: 11px;
-   margin-right:70px;
+   margin-right:90px;
    margin-bottom: 5px;
-   margin-left: 10px;
-   text-align: right;
+   margin-left: 40px;
+   text-align: left;
+   height: 80px;
+
+
  
- padding-left: 10px;
-position: relative;
+ padding-right: 50px;
+
 left:2px;
-top: 2px;
+top: 2px; */
    
 }
 
@@ -188,7 +207,7 @@ top: 2px;
 }
 
 
-.Tcontent a,  a{
+.Tcontent a{
     display: block;
     color: rgba(24, 16, 8,1);
     float: none;
@@ -201,6 +220,10 @@ top: 2px;
     background-color: rgba(35, 62, 78, 0.5);
 }
 
-.dropdown:hover .Tcontent, .dropdown:hover .bdropdown-content {
+.dropdown:hover .Tcontent {
     display: block;
+}
+
+a{
+    text-decoration: none;
 }
