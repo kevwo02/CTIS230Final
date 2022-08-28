@@ -371,8 +371,8 @@ top: 615px;
 img#watImg{
     width: 27%;
     height:30%;
-    position: fixed; 
-   top: -230px;
+    position:relative; 
+   top: 530px;
    left:870px;
    
  
