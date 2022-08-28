@@ -69,7 +69,7 @@ h1{
 
 div.wit{
     overflow: hidden;
-    background-color: peru;
+    background-color: rosybrown;
     margin-left: 40px;
   
     margin-top: 25px;
@@ -100,7 +100,7 @@ img#imgsens{
 
 div.history{
     overflow: hidden;
-    background-color: peru;
+    background-color: rosybrown;
     margin-left: 40px;
     margin-right: 50px;
     margin-top: 2px;
@@ -120,7 +120,7 @@ div.history h1{
 }
 
 div.histop{
-    background-color: chocolate;
+    background-color: rgb(126, 101, 101);;
     font-size: larger;
     font-weight: lighter;
     width: 100%;
@@ -214,178 +214,282 @@ a{
 }
 
 .headHome{
-    /* border: 3px dotted black; */
-    height: 1000px;
+     /* border: 3px dotted black;  */
+    height: 2000px;
+ padding-left: 2%;
+    background-color: rgb(126, 101, 101);
+    padding-top: 4%;
 }
 
 .forHome{
+    overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 74.475%;
-    position: absolute;
-    left: 357px;
-   
+    margin-left: 40px;
+  text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+
+  
  
 }
 
 .forBell{
+    overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 71%;
-    position: absolute;
-    top:635px;
-   
+    margin-left: 40px;
+  text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+
    
 }
 
-.forFridge{
-    background-color: rosybrown;
-    font-size: 1.5em;
-    width: 70%;
-    position: absolute;
-  top:985px;
-  left:421px;
+
+.forFridge{overflow: hidden;
+    background-color: rosybrown ;
+    margin-left: 40px;
+  text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+
+    
 }
 
 .forSensor{
+    
+   overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 76.5%;
-    position: absolute;
+    margin-left: 40px;
   
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
 }
 
 .forTractor{
+
+    overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 77%;
-    position: absolute;
-    left: 22.25%;
-    top:87.5%;
-   
+    margin-left: 40px;
+  
+    margin-top: 25px;
+    margin-bottom: 45px;
+    padding-left: 25px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+
 }
 
 .forStation{
+ 
+    overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 70.5%;
-    position: absolute;
-    top:130.175%;
-   
+    margin-left: 40px;
+  
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+  
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
  
 }
 
 .headHealthcare{
-    border: 3px dotted black;
-    height: 1000px;
-    width:1420px;
+    /* border: 3px dotted black; */
+    height: 2000px;
+ padding-left: 2%;
+    background-color: rgb(126, 101, 101);
+    padding-top: 4%;
+    
 }
 
 .forRPM{
+ 
+    overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 74.475%;
-    position: absolute;
-    left: 357px;
+    margin-left: 40px;
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
 }
+
 
 .forThermo{
-       background-color: rosybrown;
-    font-size: 1.5em;
-    width: 71%;
-    position: absolute;
-    top:730px;
    
+    overflow: hidden;
+    background-color: rosybrown;
+    margin-left: 40px;
+  text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
 }
+   
+
 
 .forWatch{
+  
+  overflow: hidden;
     background-color: rosybrown;
-    font-size: 1.5em;
-    width: 70%;
-    position: absolute;
-  top:1104px;
-  left:421px;
+    margin-left: 40px;
+  text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+
 }
 img#echoID{
-    width: 23.975%;
-    height: 32.25%;
-
-    position: absolute;
- 
+    width: 350px;
+    height: 380px;
+    float:left;
+    position:static;
+  margin:.2em;
 
 }
 img#ringPic{
-    width: 28%;
-    height: 35.5%;
-position: absolute;
-left:1025px;
-top: 635px;
+    width: 350px;
+    height: 380px;
+    float:right;
+    position:static;
+  margin:.2em;
 
 
 }
 
 img#frio{
-    width: 28.41%;
-    height:35.5%;
-   position: absolute;
-   top: 985px;
+    width: 350px;
+    height: 380px;
+    float:left;
+    position:static;
+  margin:.2em;
   
 }
 
 img#rHealth{
-    width: 23.975%;
-    height: 32.25%;
-
-    position: absolute;
+    width: 350px;
+    height: 380px;
+    float:left;
+    position:static;
+  margin:.2em;
 }
 img#st{
-    width: 28%;
-    height: 35.5%;
-position: absolute;
-left:1025px;
-top: 730px;
+    width: 350px;
+    height: 380px;
+    float:right;
+    position:static;
+  margin:.2em;
 }
 
 img#aw{
-    width: 28.47%;
-    height:32.25%;
-   position: absolute;
-   top: 1104px;
-  
+    width: 350px;
+    height: 380px;
+    float:left;
+    position:static;
+  margin:.2em;
 }
 .headAgriculture{
-    /* border: 3px dotted black; */
-    height: 1000px;
+    /* border: 3px dotted black;  */
+    height: 2000px;
+ padding-left: 2%;
+    background-color: rgb(126, 101, 101);
+    padding-top: 4%;
     
 }
 img#sensImage{
-    width: 22%;
-    height: 32%;
+    
 
-    position: absolute;
-    top: 377px;
-    left:1112px;
+
+ width: 350px;
+ height: 300px;
+ float:right;
+ position:static;
+margin:.2em;
 }
 img#tractorImage{
-    width: 23%;
-    height: 32%;
-position: absolute;
-left:11px;
-top: 743px;
+  
+
+width: 350px;
+height: 300px;
+float:left;
+position:static;
+margin: .3em;
+
 
 }
 
 img#watImg{
-    width: 28%;
-    height:32%;
-   float: right;
+  
 
-   left:1026px;
-   top:1105.4px;
-   position: absolute;
-   
- 
+ width: 350px;
+    height: 380px;
+    float:left;
+    position:static;
+  margin:.2em;
 }
+
 
 .header {
     padding: 30px;
