@@ -277,7 +277,7 @@ a{
 .forStation{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
+    width: 60%;
  
 }
 
@@ -369,9 +369,13 @@ top: 615px;
 }
 
 img#watImg{
-    width: 25%;
+    width: 27%;
     height:30%;
-   position: absolute;
-   top: 873px;
-   left:1035px;
+    position: fixed; 
+   top: -230px;
+   left:870px;
+   
+ 
 }
+
+/* just used fixed for all */
