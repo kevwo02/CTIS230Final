@@ -5,6 +5,7 @@ body{
 
 div.NavBar{
 display: flex;
+flex-direction: row;
  /* border: 2px dotted #a52a2a;  */
 background-color: black;
 height: 75px;
@@ -17,9 +18,6 @@ justify-content: space-around;
 
 }
 
-*{
-    box-sizing: border-box;
-}
 div.nb{
     width: 20%;
 padding-top: 5%;
@@ -154,24 +152,6 @@ position: relative;
 top: -67px;
 left: -20px;
 font-family: Arial, Helvetica, sans-serif;
-    /* overflow: hidden;
-    float: left;
-    color:bisque;
-    border: 2px dotted white;  
-   margin-top: 11px;
-   margin-right:90px;
-   margin-bottom: 5px;
-   margin-left: 40px;
-   text-align: left;
-   height: 80px;
-
-
- 
- padding-right: 50px;
-
-left:2px;
-top: 2px; */
-   
 }
 
 .dropdown .dropbtn {
@@ -184,7 +164,8 @@ top: 2px; */
     padding: 10.5px 30px;
     margin-right: 10px;
     margin-left: 1px;
-
+display: flex;
+flex-direction: row;
     text-align: left;
     justify-content: left;
     left: 80px;
@@ -364,21 +345,20 @@ img#tractorImage{
 position: absolute;
 left:30px;
 top: 615px;
+float: left;
 }
 
 img#watImg{
     width: 27%;
     height:30%;
-    position:relative; 
-   top: 530px;
-   left:870px;
+   float: right;
+   top: 63em;
+   left:48em;
+   position: absolute;
    
  
 }
 
-/* just used fixed for all */
-
-/* Header/Blog Title */
 .header {
     padding: 30px;
     font-size: 40px;
@@ -386,8 +366,7 @@ img#watImg{
     background: rosybrown;
   }
   
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
+
   .leftcolumn {   
    
     width: 100%;
@@ -397,9 +376,6 @@ img#watImg{
     font-size: 1.4em;
   }
  
-  
-  
-  /* Add a card effect for articles */
   .card {
      background-color: rosybrown;
      padding: 20px;
