@@ -213,19 +213,28 @@ a{
    
 }
 
+.headHome{
+    /* border: 3px dotted black; */
+    height: 1000px;
+}
+
 .forHome{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
-    position: relative;
-    left:30%;
+    width: 74.475%;
+    position: absolute;
+    left: 357px;
+   
  
 }
 
 .forBell{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
+    width: 71%;
+    position: absolute;
+    top:635px;
+   
    
 }
 
@@ -233,45 +242,59 @@ a{
     background-color: rosybrown;
     font-size: 1.5em;
     width: 70%;
-    position: relative;
-    left: 30%;
+    position: absolute;
+  top:985px;
+  left:421px;
 }
 
 .forSensor{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
+    width: 76.5%;
+    position: absolute;
   
 }
 
 .forTractor{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
-    position: relative;
-    left: 30%;
+    width: 77%;
+    position: absolute;
+    left: 22.25%;
+    top:87.5%;
    
 }
 
 .forStation{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 60%;
+    width: 70.5%;
+    position: absolute;
+    top:130.175%;
+   
  
+}
+
+.headHealthcare{
+    border: 3px dotted black;
+    height: 1000px;
+    width:1420px;
 }
 
 .forRPM{
     background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
-    position: relative;
-    left:30%;
+    width: 74.475%;
+    position: absolute;
+    left: 357px;
 }
 
 .forThermo{
-    background-color: rosybrown;
+       background-color: rosybrown;
     font-size: 1.5em;
-    width: 70%;
+    width: 71%;
+    position: absolute;
+    top:730px;
    
 }
 
@@ -279,81 +302,86 @@ a{
     background-color: rosybrown;
     font-size: 1.5em;
     width: 70%;
-    position: relative;
-    left: 30%;
+    position: absolute;
+  top:1104px;
+  left:421px;
 }
 img#echoID{
-    width: 25%;
-    height: 35%;
+    width: 23.975%;
+    height: 32.25%;
 
     position: absolute;
-    top: 242px;
-    left:40px
+ 
+
 }
 img#ringPic{
-    width: 25%;
+    width: 28%;
+    height: 35.5%;
 position: absolute;
-left:1050px;
-top: 555px;
+left:1025px;
+top: 635px;
 
 
 }
 
 img#frio{
-    width: 25%;
-    height:30%;
+    width: 28.41%;
+    height:35.5%;
    position: absolute;
-   top: 825px;
-   left:30px;
+   top: 985px;
+  
 }
 
 img#rHealth{
-    width: 25%;
-    height: 35%;
+    width: 23.975%;
+    height: 32.25%;
 
     position: absolute;
-    top: 335px;
-    left:40px
 }
 img#st{
-    width: 18%;
-    height: 35%;
+    width: 28%;
+    height: 35.5%;
 position: absolute;
-left:1104px;
-top: 620px;
+left:1025px;
+top: 730px;
 }
 
 img#aw{
-    width: 25%;
-    height:30%;
+    width: 28.47%;
+    height:32.25%;
    position: absolute;
-   top: 900px;
-   left:35px;
+   top: 1104px;
+  
 }
-
+.headAgriculture{
+    /* border: 3px dotted black; */
+    height: 1000px;
+    
+}
 img#sensImage{
     width: 22%;
     height: 32%;
 
     position: absolute;
-    top: 333px;
-    left:1050px
+    top: 377px;
+    left:1112px;
 }
 img#tractorImage{
-    width: 25%;
-    height: 30%;
+    width: 23%;
+    height: 32%;
 position: absolute;
-left:30px;
-top: 615px;
-float: left;
+left:11px;
+top: 743px;
+
 }
 
 img#watImg{
-    width: 27%;
-    height:30%;
+    width: 28%;
+    height:32%;
    float: right;
-   top: 63em;
-   left:48em;
+
+   left:1026px;
+   top:1105.4px;
    position: absolute;
    
  
