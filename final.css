@@ -227,3 +227,78 @@ top: 2px; */
 a{
     text-decoration: none;
 }
+
+.homeCenter{
+    text-align: center;
+    background-color: rosybrown;
+   
+}
+
+.forHome{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+    position: relative;
+    left:30%;
+}
+
+.forBell{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+   
+}
+
+.forFridge{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+    position: relative;
+    left: 30%;
+}
+
+.forSensor{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+  
+}
+
+.forTractor{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+    position: relative;
+    left: 30%;
+   
+}
+
+.forStation{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+ 
+}
+
+.forRPM{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+    position: relative;
+    left:30%;
+}
+
+.forThermo{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+   
+}
+
+.forWatch{
+    background-color: rosybrown;
+    font-size: 1.5em;
+    width: 70%;
+    position: relative;
+    left: 30%;
+}
