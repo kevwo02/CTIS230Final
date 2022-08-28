@@ -240,6 +240,7 @@ a{
     width: 70%;
     position: relative;
     left:30%;
+ 
 }
 
 .forBell{
@@ -301,4 +302,76 @@ a{
     width: 70%;
     position: relative;
     left: 30%;
+}
+img#echoID{
+    width: 25%;
+    height: 35%;
+
+    position: absolute;
+    top: 242px;
+    left:40px
+}
+img#ringPic{
+    width: 25%;
+position: absolute;
+left:1050px;
+top: 555px;
+
+
+}
+
+img#frio{
+    width: 25%;
+    height:30%;
+   position: absolute;
+   top: 825px;
+   left:30px;
+}
+
+img#rHealth{
+    width: 25%;
+    height: 35%;
+
+    position: absolute;
+    top: 335px;
+    left:40px
+}
+img#st{
+    width: 18%;
+    height: 35%;
+position: absolute;
+left:1104px;
+top: 620px;
+}
+
+img#aw{
+    width: 25%;
+    height:30%;
+   position: absolute;
+   top: 900px;
+   left:35px;
+}
+
+img#sensImage{
+    width: 22%;
+    height: 32%;
+
+    position: absolute;
+    top: 333px;
+    left:1050px
+}
+img#tractorImage{
+    width: 25%;
+    height: 30%;
+position: absolute;
+left:30px;
+top: 615px;
+}
+
+img#watImg{
+    width: 25%;
+    height:30%;
+   position: absolute;
+   top: 873px;
+   left:1035px;
 }
