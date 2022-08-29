@@ -505,14 +505,28 @@ img#watImg{
     background: rosybrown;
   }
   
+  .headerNew{
+    background-color: rosybrown;
+    font-size: larger;
+    font-weight: lighter;
+    width: 100%;
+  }
 
   .leftcolumn {   
    
     width: 100%;
+
+ 
+
   }
   
   .row{
-    font-size: 1.4em;
+    font-size: 1.2em;
+    height: 1500px;
+
+    background-color: rgb(126, 101, 101);
+    padding-top: 7%;
+    padding-left: 5%;
   }
  
   .card {
@@ -520,6 +534,19 @@ img#watImg{
      padding: 20px;
      margin-top: 20px;
      font-size: 1.2em;
+     width: 90%;
+  }
+
+  .newsIntro{
+    font-size: 1.75em;
+    font-weight: bolder;
+    color: wheat;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .card h2{
+    color:wheat
   }
   
   
