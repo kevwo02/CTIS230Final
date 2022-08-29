@@ -567,6 +567,7 @@ img#watImg{
     background-color: rosybrown;
     margin-left: 40px;
     text-align: right;
+    justify-content: right;
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 25px;
@@ -574,9 +575,18 @@ img#watImg{
     padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     height: 600px;
     width: 90%;
+    position: relative;
+  }
+
+  img#robot{
+    width: 25%;
+    height: 32%;
+    position: absolute;
+    bottom:2%;
+    left:5%;
   }
 
   .internet{
@@ -591,16 +601,25 @@ img#watImg{
     padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     height: 600px;
     width: 90%;
+    position: relative;
+  }
+
+  img#wifi{
+    width: 24%;
+    height: 30%;
+    position: absolute;
+    bottom:1%;
+    right:5%;
   }
 
   .contact{
     overflow: hidden;
     background-color: rosybrown;
     margin-left: 40px;
-    text-align: right;
+    text-align:left;
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 25px;
@@ -608,9 +627,18 @@ img#watImg{
     padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     height: 600px;
     width: 90%;
+    position: relative;
+  }
+
+  img#connecting{
+    width: 23%;
+    height: 28%;
+    position: absolute;
+    bottom:2%;
+    right:5%;
   }
 .typeHead{
 margin-bottom: 5%;
