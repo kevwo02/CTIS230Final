@@ -121,8 +121,8 @@ div.history h1{
  
 }
 .whatHome{
-    height: 2400px;
- padding-left: 2%;
+    height: 4200px;
+padding-right:.5%;
     background-color: rgb(126, 101, 101);
     padding-top: 4%;
 }
