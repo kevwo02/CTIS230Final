@@ -548,6 +548,73 @@ img#watImg{
   .card h2{
     color:wheat
   }
+
+  .typeHome{
+    font-size: 1.2em;
+    height: 2000px;
+
+    background-color: rgb(126, 101, 101);
+    padding-top: 5%;
+    padding-left: 1.5%;
+  }
+
+  .sensorType{
+    overflow: hidden;
+    background-color: rosybrown;
+    margin-left: 40px;
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+  }
+
+  .internet{
+    overflow: hidden;
+    background-color: rosybrown;
+    margin-left: 40px;
+  text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+  }
+
+  .contact{
+    overflow: hidden;
+    background-color: rosybrown;
+    margin-left: 40px;
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2em;
+    height: 600px;
+    width: 90%;
+  }
+.typeHead{
+
+  font-size: 20px;
+  text-align: center;
+  background: rosybrown;
+}
+
   
   
   
