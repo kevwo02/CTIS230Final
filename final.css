@@ -554,8 +554,12 @@ img#watImg{
     height: 2000px;
 
     background-color: rgb(126, 101, 101);
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 1.5%;
+  }
+
+  .typeHome h1{
+    font-size: 3em;
   }
 
   .sensorType{
@@ -570,7 +574,7 @@ img#watImg{
     padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.2em;
+    font-size: 1.2em;
     height: 600px;
     width: 90%;
   }
@@ -587,7 +591,7 @@ img#watImg{
     padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.2em;
+    font-size: 1.2em;
     height: 600px;
     width: 90%;
   }
@@ -604,17 +608,24 @@ img#watImg{
     padding-top: 5px;
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.2em;
+    font-size: 1.2em;
     height: 600px;
     width: 90%;
   }
 .typeHead{
-
+margin-bottom: 5%;
   font-size: 20px;
   text-align: center;
   background: rosybrown;
 }
 
+.typeCaption{
+  font-size: 1.75em;
+  font-weight: bolder;
+  color: wheat;
+  text-align: center;
+  margin-top: 10%;
+}
   
   
   
