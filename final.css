@@ -121,10 +121,12 @@ div.history h1{
  
 }
 .whatHome{
-    height: 4200px;
+    height: 100%;
 padding-right:.5%;
     background-color: rgb(126, 101, 101);
-    padding-top: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    
 }
 div.histop{
     background-color: rosybrown;
