@@ -122,7 +122,7 @@ div.history h1{
 }
 div.whatHome{
     height: 100%;
-padding-right:.5%;
+padding-left:1%;
     background-color: rgb(126, 101, 101);
     padding-top: 1.5%;
     padding-bottom: 2%;
@@ -541,11 +541,15 @@ div.header {
   }
 
   div.newsIntro{
-    font-size: 1.75em;
+    
     font-weight: bolder;
     color: wheat;
     text-align: center;
     margin-bottom: 2%;
+  }
+
+  div.newsIntro p{
+    font-size: 24px;
   }
 
   div.card h2{
