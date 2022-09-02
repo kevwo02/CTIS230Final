@@ -71,8 +71,8 @@ h1{
 div.wit{
     overflow: hidden;
     background-color: rosybrown;
-    margin-left: 40px;
-  
+    margin-left: 93px;
+  margin-right: 50px;
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 25px;
@@ -81,8 +81,8 @@ div.wit{
     padding-bottom: 12px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.2em;
-    height: 600px;
-    width: 90%;
+  
+    width: 80%;
   
 
 }
@@ -102,7 +102,7 @@ img#imgsens{
 div.history{
     overflow: hidden;
     background-color: rosybrown;
-    margin-left: 40px;
+    margin-left: 93px;
     margin-right: 50px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -112,7 +112,7 @@ div.history{
     padding-bottom: 2px;
     font-size: 2.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width:90%;
+    width:80%;
 
 }
 
@@ -121,11 +121,13 @@ div.history h1{
  
 }
 div.whatHome{
-    height: 100%;
-padding-left:1%;
+    height: 90%;
+
+margin-right: -20px;
     background-color: rgb(126, 101, 101);
     padding-top: 1.5%;
     padding-bottom: 2%;
+    width: 100%;
     
 }
 div.histop{
@@ -572,7 +574,7 @@ div.header {
   div.sensorType{
     overflow: hidden;
     background-color: rosybrown;
-    margin-left: 40px;
+    margin-left: 30px;
     text-align: right;
     justify-content: right;
     margin-top: 25px;
@@ -599,7 +601,7 @@ div.header {
   div.internet{
     overflow: hidden;
     background-color: rosybrown;
-    margin-left: 40px;
+    margin-left: 30px;
   text-align: left;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -616,16 +618,16 @@ div.header {
 
   img#wifi{
     width: 24%;
-    height: 30%;
+    height: 25%;
     position: absolute;
     bottom:1%;
-    right:5%;
+    right:3%;
   }
 
   div.contact{
     overflow: hidden;
     background-color: rosybrown;
-    margin-left: 40px;
+    margin-left: 30px;
     text-align:left;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -645,7 +647,7 @@ div.header {
     height: 28%;
     position: absolute;
     bottom:2%;
-    right:5%;
+    right:3%;
   }
 div.typeHead{
 margin-bottom: 5%;
@@ -660,6 +662,21 @@ div.typeCaption{
   color: wheat;
   text-align: center;
   margin-top: 10%;
+}
+
+@media (max-width : 500px){
+  
+  div.wit{
+    margin-right: 800px;
+ 
+  }
+
+  div.history{
+    margin-right: 200px;
+  }
+  div.whatHome{
+    margin-right: 200px;
+  }
 }
   
   
