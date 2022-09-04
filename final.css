@@ -62,6 +62,26 @@ div.foot{
     /* border: 2px dotted white */
 }
 
+div#footers{
+  display: flex;
+  background-color: black;
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 90px;
+
+ 
+}
+div.foots{
+  width: 100%;
+  font-size: 14pt;
+  padding-top: 2em;
+  /* padding-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em; */
+  text-align: center;
+  /* border: 2px dotted white */
+}
+
 
 
 h1{
@@ -672,7 +692,7 @@ div.typeCaption{
 padding-bottom: 2%;
 }
 
-@media (max-width : 500px){
+@media (max-width : 700px){
   div.wit{
     margin-left: 44.5px;
     width: 70%;
