@@ -14,10 +14,19 @@
 // }
 
 function show() {
- 
-    document.getElementById('allFinal')
-           .style.display = "block";
+   var x = document.getElementById("allFinal");
 
-    document.getElementById('fButton')
-            .style.display = "none";
+    if (x.style.display === "none") {
+       x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+
+
+function noshow(){
+    document.getElementById('allFinal')
+           .style.display="none";
+
 }

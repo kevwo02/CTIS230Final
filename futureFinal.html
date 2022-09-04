@@ -23,7 +23,7 @@
               <a href="iotHealthcare.html">Healthcare</a>
           </div>
         </div>
-        <div class="nb"><a href="issuesFinal"> Issues</a> </div>
+        <div class="nb"><a href="issuesFinal.html"> Issues</a> </div>
         <div class="nb"><a href="futureFinal.html"> Future </a></div> 
      <div class="nb"><a href="finalNews.html"> News </a> </div>  
       </div>
@@ -41,16 +41,16 @@
        <div id="entireFinal">
           <div class="something">
      
-        <button type="button" onclick="show()" id="fButton"> Click Me!
+        <button type="button" onclick="show()" onclick="noshow()"  id="fButton"> Click Me!
         </button>
           </div>
 
-          <div id="allFinal" class="dontshow">
+          <div id="allFinal" onclick="noshow()" class="dontshow">
 
           <div class="finalImages">
-            <div class="final1"> <img src="images/negative.jpg"></div>
-              <div class="final2"><img src="images/versus.png"></div>
-              <div class="final3"><img src="images/positive.jpg"></div>
+            <div class="final1"> <img id="neg" src="images/negative.jpg"></div>
+              <div class="final2"><img id="vs" src="images/versus.png"></div>
+              <div class="final3"><img id="pos" src="images/positive.jpg"></div>
             </div>
 
             <div>
@@ -61,7 +61,7 @@
 
             <div class="finalPositive">
               <p> info here</p>
-              <ul>
+              <ul id="posList">
                 <li>Economic Advantages</li>
                 <li>Efficiency</li>
                 <li>Possible IoT regulations and laws </li>
