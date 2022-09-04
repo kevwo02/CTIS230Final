@@ -533,11 +533,12 @@ div.header {
   
   div.row{
     font-size: 1.2em;
-    height: 1500px;
+   
 
     background-color: rgb(126, 101, 101);
-    padding-top: 7%;
-    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 5.1%;
   }
  
   div.card {
@@ -674,15 +675,29 @@ padding-bottom: 2%;
 @media (max-width : 500px){
   
   div.wit{
-    margin-right: 800px;
- 
+    margin-left: 44.5px;
+    width: 70%;
+   
+  }
+
+  img#imgsens{
+    margin-right: -16px;
+  }
+
+  img#gHome{
+    margin-right: 56px;
   }
 
   div.history{
-    margin-right: 200px;
+    margin-left: 44.5px;
+    width: 70%;
   }
   div.whatHome{
     margin-right: 200px;
+  }
+  div.row{
+    padding-right: 20px;
+    padding-bottom: 30px;
   }
 }
 
@@ -750,6 +765,18 @@ div.futureCaption{
     text-align: center;
     margin-top: 6%;
   padding-bottom: 2%;
+  }
+
+  #networkVideo{
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
   }
 
  
