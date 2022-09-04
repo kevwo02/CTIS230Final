@@ -652,8 +652,8 @@ div.header {
     width: 23%;
     height: 28%;
     position: absolute;
-    bottom:2%;
-    right:3%;
+    bottom:1%;
+    right:.5%;
   }
 div.typeHead{
 margin-bottom: 5%;
@@ -663,11 +663,12 @@ margin-bottom: 5%;
 }
 
 div.typeCaption{
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bolder;
   color: wheat;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 6%;
+padding-bottom: 2%;
 }
 
 @media (max-width : 500px){
@@ -737,6 +738,21 @@ text-align: center;
   text-align: center;
   list-style-position: inside;
 }
+
+div.futureCaption{
+
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: wheat;
+    text-align: center;
+    margin-top: 6%;
+  padding-bottom: 2%;
+  }
+
+ 
+
+
+
 
 
   

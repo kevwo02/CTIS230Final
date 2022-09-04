@@ -18,6 +18,10 @@ function show() {
 
     if (x.style.display === "none") {
        x.style.display = "block";
+       x.style.backgroundColor="rosybrown";
+       x.style.width= "80%";
+      x.style.marginLeft="10%";
+    //   x.style.border="2px | sold| black";
       } else {
         x.style.display = "none";
       }
