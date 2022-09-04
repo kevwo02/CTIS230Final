@@ -701,7 +701,7 @@ img#neg{
   width:23%;
   height: 35%;
   position: absolute;
-  left: 77%;
+  left: 73.75%;
   padding-top: 8%;
   padding-bottom: 10%;
 
@@ -722,6 +722,7 @@ img#pos{
   position: absolute;
   float: left;
    padding-top: 8%;
+   left: 3%;
  
   
 }
@@ -737,6 +738,8 @@ text-align: center;
 #posList{
   text-align: center;
   list-style-position: inside;
+  color:blue;
+
 }
 
 div.futureCaption{
