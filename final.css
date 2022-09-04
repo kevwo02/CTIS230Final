@@ -798,15 +798,20 @@ div.futureCaption{
   }
 
   #networkVideo{
-    width: 100vw;
-  height: 510vh;
-  object-fit:cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1; 
+  }
+    /* width: 100vw;
+  height: 100vh;
+  object-fit:contain;
   position: fixed;
-  left: 0;
-  right: 0px;
-  top: 0px;
-
-  z-index: -1;
+  left: 0vw;
+  top: 0vh;
+   z-index: -1; 
   }
 
  
