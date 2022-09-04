@@ -67,10 +67,10 @@ div#footers{
   background-color: black;
   color: wheat;
   font-family: Arial, Helvetica, sans-serif;
-position: fixed;
-left: 6px;
-bottom: 11px;
-width: 98%;
+position: relative;
+
+top:50px;
+width: 100%;
 text-align: center;
 
  
@@ -698,6 +698,10 @@ padding-bottom: 2%;
 }
 
 @media (max-width : 700px){
+
+ div.homeCaption{
+  padding-top: 20%;
+ }
   div.wit{
     margin-left: 44.5px;
     width: 70%;
@@ -803,6 +807,7 @@ div.futureCaption{
   z-index: -1;
   }
 
+ 
  
 
 
