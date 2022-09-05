@@ -758,7 +758,7 @@ img#neg{
   height: 35%;
   position: absolute;
   left: 73.75%;
-  padding-top: 8%;
+  padding-top: 2%;
   padding-bottom: 10%;
 
 
@@ -768,7 +768,7 @@ img#vs{
   height: 35%;
   position: absolute;
   left:38%;
-   padding-top: 8%;
+   padding-top: 2%;
    padding-bottom: 10%;
 
 }
@@ -777,7 +777,7 @@ img#pos{
   height: 35%;
   position: absolute;
   float: left;
-   padding-top: 8%;
+   padding-top: 2%;
    left: 3%;
  
   
@@ -785,18 +785,40 @@ img#pos{
 
 div.finalPositive{
 
-  padding-top: 60%;
+  padding-top: 30%;
 text-align: center;
+position: relative;
 
 
+}
+
+.finalNegative{
+  padding-bottom: 10%;
 }
 
 #posList{
   text-align: center;
   list-style-position: inside;
-  color:blue;
-
+  color:springgreen;
+  float: left;
+  position: absolute;
+  top:91%;
+  left: 1%;
+  font-size: 1.5em;
 }
+
+#negList{
+  text-align: center;
+  list-style-position: inside;
+  color:maroon;
+  float: right;
+  position: absolute;
+top: 81%;
+left: 72%;
+font-size: 1.5em;
+}
+
+
 
 div.futureCaption{
 
@@ -823,7 +845,13 @@ div.futureCaption{
   left: 0vw;
   top: 0vh;
    /* z-index: -1;  */
-  
+
+   .finalHead{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 3%;
+   }
+
    
 
   
