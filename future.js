@@ -18,7 +18,7 @@ function show() {
 
     if (x.style.display === "none") {
        x.style.display = "block";
-       x.style.backgroundColor="rosybrown";
+       x.style.backgroundColor="rgb(126, 101, 101)";
     
     //   x.style.border="2px | sold| black";
       } else {

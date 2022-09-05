@@ -849,14 +849,16 @@ div.futureCaption{
    .finalHead{
     font-size: 2em;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 2%;
+    background-color: rosybrown;
    }
 
    .futureThoughts{
    
       font-size: 1.5em;
       text-align: center;
-      padding-top: 8%;
+  
+      background-color:rosybrown
      }
    
 
