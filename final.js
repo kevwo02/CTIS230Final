@@ -1,10 +1,8 @@
-varietybutton = document.getElementById("Tbutton");
+const heightOutput = document.querySelector("homepage");
 
-varietybutton.addEventListener("click", onClick);
-
-function onClick() {  
-    window.location.href = "typeIot.html"; 
+function resizeH(){
+heightOutput.textContent = window.innerHeight
 }
 
-
+window.addEventListener("resize", resizeH);
 

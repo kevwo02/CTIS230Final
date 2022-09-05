@@ -157,6 +157,10 @@ div.homeCaption{
 margin-top:-85px;
 margin-bottom: -200px;
  }
+
+ .homeCaption h1{
+  color: bisque;
+ }
 div.whatHome{
     height: 90%;
 
