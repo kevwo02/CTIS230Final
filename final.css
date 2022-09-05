@@ -743,7 +743,7 @@ padding-bottom: 2%;
 }
 
  div.dontshow{
-  /* display: none; */
+  display: none;
   position: relative;
 }
 
@@ -802,8 +802,8 @@ position: relative;
   color:springgreen;
   float: left;
   position: absolute;
-  top:91%;
-  left: 1%;
+  top:120%;
+
   font-size: 1.5em;
 }
 
@@ -813,8 +813,8 @@ position: relative;
   color:maroon;
   float: right;
   position: absolute;
-top: 81%;
-left: 72%;
+top: 71%;
+left: 74%;
 font-size: 1.5em;
 }
 
@@ -822,7 +822,7 @@ font-size: 1.5em;
 
 div.futureCaption{
 
-    font-size: 1.8em;
+    font-size: 3em;
     font-weight: bolder;
     color: wheat;
     text-align: center;
@@ -851,6 +851,14 @@ div.futureCaption{
     text-align: center;
     padding-top: 3%;
    }
+
+   .futureThoughts{
+   
+      font-size: 1.5em;
+      text-align: center;
+      padding-top: 8%;
+     }
+   
 
    
 
