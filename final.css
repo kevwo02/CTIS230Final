@@ -894,9 +894,11 @@ div.futureCaption{
       padding-right: 25px;
       padding-top: 12px;
       padding-bottom: 2px;
-      font-size: 1.5em;
+      font-size: 1.7em;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       width:80%;
+      text-align: center;
+      list-style-position:inside;
   
   }
   
@@ -931,6 +933,13 @@ div.issuetop{
     text-align: center;
     background: rosybrown;
   }
+  img#vuln{
+    width:250px;
+    height:250px;
+    float:left;
+   margin-top: -350px;
+   margin-left:45px;
+}
    
 
    
