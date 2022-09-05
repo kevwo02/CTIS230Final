@@ -743,7 +743,7 @@ padding-bottom: 2%;
 }
 
  div.dontshow{
-  display: none;
+  /* display: none; */
   position: relative;
 }
 
