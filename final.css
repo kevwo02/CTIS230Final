@@ -736,7 +736,7 @@ padding-bottom: 2%;
 
  
   div.wit{
-    margin-left: 62px;
+    margin-left: 49px;
     width: 80%;
    
   }
@@ -750,7 +750,7 @@ padding-bottom: 2%;
   }
 
   div.history{
-    margin-left: 62px;
+    margin-left: 49.1px;
     width: 80%;
   }
   div.whatHome{
@@ -764,45 +764,62 @@ padding-bottom: 2%;
     margin-left: 10px;
     margin-top: 5.5%;
 float: left;
+font-size: 1.1em;
   }
   div.contact{
     margin-left: 10px;
+    font-size: 1.1em;
   }
   div.internet{
     margin-left: 10px;
+    font-size: 1.1em;
   
   
   }
   img#wifi{
+    display:none;
  position: absolute;
  bottom:8%;
   }
-  div.intTitle{
-  position: absolute;
-  bottom: 5%;
-  }
+ 
   img#connecting{
+    display:none;
     position: absolute;
     bottom:8%;
     right:3%;
      }
      div.conTitle{
-     position: absolute;
+  
      top: 50%;
      right: 28%;
-     font-size: 1.1em;
+
      }
      img#robot{
+     display: none;
       position: absolute;
       bottom:10%;
       left: 15%;
        }
-       div.senTitle{
-       position: absolute;
-       bottom: 10%;
-       right:15% ;
+
+       div.forHome, div.forBell, div.forFridge{
+        margin-left: 1px;
+        
        }
 
+       img#ringPic{
+        margin-left: 1%;
+        margin-top: 5%;
+       }
+
+       img#frio{
+        margin-right: 2%;
+        margin-top: 5%;
+       }
+       div.forRPM, div.forThermo, div.forWatch{
+        margin-left: 1px;
+       }        
+      
+  
 }
 
  div.dontshow{
@@ -929,7 +946,7 @@ div.futureCaption{
      div.issueOne{
       overflow: hidden;
       background-color: rosybrown;
-      margin-left: 93px;
+      margin-left: 80px;
     margin-right: 50px;
       margin-top: 25px;
       margin-bottom: 25px;
@@ -951,7 +968,7 @@ div.futureCaption{
      div.issueTwo{
       overflow: hidden;
       background-color: rosybrown;
-      margin-left: 93px;
+      margin-left: 80px;
       margin-right: 50px;
       margin-top: 2px;
       margin-bottom: 2px;
