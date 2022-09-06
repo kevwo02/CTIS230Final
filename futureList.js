@@ -6,7 +6,7 @@ function onmouseover(){
     positive.style.fontSize="26pt";
     positive.style.textAlign="center";
     positive.style.left="-46px";
-    positive.style.top="450px";
+    positive.style.top="380px";
 
 }
 
@@ -15,8 +15,8 @@ positive.addEventListener("mouseout", onmouseout);
 function onmouseout(){
     positive.style.fontSize="1.5em";
     positive.style.textAlign="center";
-    positive.style.left="10px";
-    positive.style.top="520px";
+    positive.style.left="-8px";
+    positive.style.top="385px";
 }
 
 negative = document.getElementById("negList");
@@ -24,10 +24,10 @@ negative = document.getElementById("negList");
 negative.addEventListener("mouseover", mouseover2);
 
 function mouseover2(){
-    negative.style.fontSize="26pt";
+    negative.style.fontSize="24pt";
     negative.style.textAlign="center";
     negative.style.right="50px";
-    negative.style.top="810px";
+    negative.style.top="728px";
 
 }
 
@@ -37,6 +37,6 @@ function mouseout2(){
     negative.style.fontSize="1.5em";
     negative.style.textAlign="center";
     negative.style.right="55px";
-    negative.style.top="860px";
+    negative.style.top="755px";
 }
 

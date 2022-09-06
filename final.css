@@ -806,7 +806,7 @@ float: left;
 }
 
  div.dontshow{
-  display: none;
+  /* display: none; */
   position: relative;
 }
 
@@ -818,7 +818,7 @@ div.something{
 
 img#neg{
   width:23%;
-  height: 35%;
+  height: 30%;
   position: absolute;
   left: 73.75%;
   padding-top: 2%;
@@ -828,7 +828,7 @@ img#neg{
 }
 img#vs{
   width:23%;
-  height: 35%;
+  height: 30%;
   position: absolute;
   left:38%;
    padding-top: 2%;
@@ -837,7 +837,7 @@ img#vs{
 }
 img#pos{
   width:23%;
-  height: 35%;
+  height: 30%;
   position: absolute;
   float: left;
    padding-top: 2%;
@@ -865,7 +865,7 @@ position: relative;
   color:springgreen;
   float: left;
   position: absolute;
-  top:120%;
+  top:110%;
 
   font-size: 1.5em;
 }
@@ -876,8 +876,8 @@ position: relative;
   color:maroon;
   float: right;
   position: absolute;
-top: 71%;
-left: 74%;
+top: 62.3%;
+left: 70%;
 font-size: 1.5em;
 }
 
@@ -910,9 +910,10 @@ div.futureCaption{
    /* z-index: -1;  */
 
    .finalHead{
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 2%;
     background-color: rosybrown;
    }
 
@@ -920,7 +921,8 @@ div.futureCaption{
    
       font-size: 1.5em;
       text-align: center;
-  
+  padding-top: 8%;
+  padding-bottom: 3%;
       background-color:rosybrown
      }
 
@@ -999,9 +1001,10 @@ div.issuetop{
   img#vuln{
     width:250px;
     height:250px;
+    position: static;
     float:left;
-   margin-top: -350px;
-   margin-left:45px;
+   margin-top: -90px;
+   margin-left:4px;
 }
    
 
