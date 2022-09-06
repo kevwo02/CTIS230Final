@@ -817,8 +817,18 @@ font-size: 1.1em;
        }
        div.forRPM, div.forThermo, div.forWatch{
         margin-left: 1px;
-       }        
-      
+       }       
+     
+      div.finalHead, div.futureThoughts{
+        font-size: 1.1em;
+      }
+      img#vs, img#neg, img#pos{
+
+display: none;    
+}
+
+
+
   
 }
 
