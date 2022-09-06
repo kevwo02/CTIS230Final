@@ -5,8 +5,8 @@ positive.addEventListener("mouseover", onmouseover);
 function onmouseover(){
     positive.style.fontSize="26pt";
     positive.style.textAlign="center";
-    positive.style.left="-46px";
-    positive.style.top="380px";
+    positive.style.left="46px";
+    positive.style.top="20px";
 
 }
 
@@ -16,7 +16,7 @@ function onmouseout(){
     positive.style.fontSize="1.5em";
     positive.style.textAlign="center";
     positive.style.left="-8px";
-    positive.style.top="385px";
+    positive.style.top="38px";
 }
 
 negative = document.getElementById("negList");
@@ -27,7 +27,7 @@ function mouseover2(){
     negative.style.fontSize="24pt";
     negative.style.textAlign="center";
     negative.style.right="50px";
-    negative.style.top="728px";
+    negative.style.top="28px";
 
 }
 
@@ -37,6 +37,6 @@ function mouseout2(){
     negative.style.fontSize="1.5em";
     negative.style.textAlign="center";
     negative.style.right="55px";
-    negative.style.top="755px";
+    negative.style.top="40px";
 }
 

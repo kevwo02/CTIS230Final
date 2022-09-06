@@ -153,7 +153,7 @@ div.history h1{
 }
 
 div.homeCaption{
-  padding-top: 30%;
+  padding-top: 22%;
 margin-top:-85px;
 margin-bottom: -200px;
  }
@@ -827,13 +827,17 @@ font-size: 1.1em;
 display: none;    
 }
 
+#negList{
+  top: 80px;
+}
+
 
 
   
 }
 
  div.dontshow{
-  display: none;
+  /* display: none; */
   position: relative;
 }
 
@@ -891,8 +895,8 @@ position: relative;
   list-style-position: inside;
   color:springgreen;
   float: left;
-  position: absolute;
-  top:110%;
+  position: relative;
+  top:40px;
 
   font-size: 1.5em;
 }
@@ -902,9 +906,9 @@ position: relative;
   list-style-position: inside;
   color:maroon;
   float: right;
-  position: absolute;
-top: 62.3%;
-left: 70%;
+  position: relative;
+top: 40px;
+right: 4%;
 font-size: 1.5em;
 }
 
@@ -1033,6 +1037,13 @@ div.issuetop{
    margin-top: -90px;
    margin-left:4px;
 }
+
+button{
+  background-color: orchid;
+  
+  
+}
+
    
 
    
