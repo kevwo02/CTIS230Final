@@ -833,7 +833,7 @@ display: none;
 }
 
  div.dontshow{
-  /* display: none; */
+  display: none;
   position: relative;
 }
 
