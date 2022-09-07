@@ -837,7 +837,7 @@ font-size: 1.1em;
 }
 
  div.dontshow{
-  /* display: none; */
+  display: none;
   position: relative;
 }
 
