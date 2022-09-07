@@ -1,6 +1,7 @@
 body{
    background-color: hsl(0, 4%, 55%);
 
+
 }
 
 div.NavBar{
@@ -1077,6 +1078,7 @@ button{
   background-color: orchid;
   color: white;
   font-size: x-large;
+  cursor: pointer;
   
 }
 
