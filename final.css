@@ -720,6 +720,64 @@ margin-bottom: 5%;
   background: rosybrown;
 }
 
+div.issueOne{
+  overflow: hidden;
+  background-color: rosybrown;
+  margin-left: 80px;
+margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+
+  width: 80%;
+
+
+}
+
+div.issueOne h1{
+  font-size: 1.8em;
+}
+ div.issueTwo{
+  overflow: hidden;
+  background-color: rosybrown;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 2px;
+  font-size: 1.7em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width:80%;
+  text-align: center;
+  list-style-position:inside;
+
+}
+
+div.issueTwo h1{
+  font-size: 1.8em;
+
+}
+
+div.issueHome{
+height: 90%;
+
+margin-right: -20px;
+background-color: rgb(126, 101, 101);
+padding-top: 1.5%;
+padding-bottom: 2%;
+width: 100%;
+
+}
+
+
 div.typeCaption{
   font-size: 1.5em;
   font-weight: bolder;
@@ -833,15 +891,13 @@ font-size: 1.1em;
         font-size: 1.1em;
       }
 
-     div.issueHome{
-        margin-right: 10%;
-      }
+     
 
       div.issueOne{
         margin-left: 4%;
       }
 
-      .issueTwo{
+      div.issueTwo{
         margin-left: 4%;
       }  
 
@@ -993,63 +1049,7 @@ div.futureCaption{
       background-color:rosybrown
      }
 
-     div.issueOne{
-      overflow: hidden;
-      background-color: rosybrown;
-      margin-left: 80px;
-    margin-right: 50px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-top: 5px;
-      padding-bottom: 12px;
-      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 1.5em;
-    
-      width: 80%;
-    
-  
-  }
-  
-  div.issueOne h1{
-      font-size: 1.8em;
-  }
-     div.issueTwo{
-      overflow: hidden;
-      background-color: rosybrown;
-      margin-left: 80px;
-      margin-right: 50px;
-      margin-top: 2px;
-      margin-bottom: 2px;
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-top: 12px;
-      padding-bottom: 2px;
-      font-size: 1.7em;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      width:80%;
-      text-align: center;
-      list-style-position:inside;
-  
-  }
-  
-  div.issueTwo h1{
-      font-size: 1.8em;
    
-  }
-
-  div.issueHome{
-    height: 90%;
-
-margin-right: -20px;
-    background-color: rgb(126, 101, 101);
-    padding-top: 1.5%;
-    padding-bottom: 2%;
-    width: 100%;
-    
-}
-
 div.issueCaption{
   font-size: 1.5em;
   font-weight: bolder;
@@ -1066,12 +1066,12 @@ div.issuetop{
     background: rosybrown;
   }
   img#vuln{
-    width:250px;
+    width:200px;
     height:250px;
     position: static;
     float:left;
    margin-top: -90px;
-   margin-left:4px;
+   margin-left:-18px;
 }
 
 button{
