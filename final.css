@@ -822,22 +822,22 @@ font-size: 1.1em;
       div.finalHead, div.futureThoughts{
         font-size: 1.1em;
       }
-      img#vs, img#neg, img#pos{
 
-display: none;    
-}
+      .issueHome{
+        margin-right: 10%;
+      }
 
-#negList{
-  top: 80px;
-}
+      .issueOne{
+        margin-left: 4%;
+      }
 
-
-
-  
+      .issueTwo{
+        margin-left: 4%;
+      }  
 }
 
  div.dontshow{
-  display: none;
+  /* display: none; */
   position: relative;
 }
 
@@ -898,7 +898,7 @@ position: relative;
   position: relative;
   top:40px;
 
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #negList{
@@ -909,7 +909,7 @@ position: relative;
   position: relative;
 top: 40px;
 right: 4%;
-font-size: 1.5em;
+font-size: 1.3em;
 }
 
 
@@ -1040,8 +1040,14 @@ div.issuetop{
 
 button{
   background-color: orchid;
+  color: white;
+  font-size: x-large;
   
-  
+}
+
+button:hover{
+  background-color: red;
+  color: black;
 }
 
    
