@@ -728,7 +728,7 @@ div.typeCaption{
 padding-bottom: 2%;
 }
 
-@media (max-width : 900px){
+@media (max-width : 700px){
 
  div.homeCaption{
   padding-top: 20%;
@@ -736,7 +736,7 @@ padding-bottom: 2%;
 
  
   div.wit{
-    margin-left: 49px;
+    margin-left: 15px;
     width: 80%;
    
   }
@@ -746,11 +746,11 @@ padding-bottom: 2%;
   }
 
   img#gHome{
-    margin-right: 56px;
+    margin-right: -15px;
   }
 
   div.history{
-    margin-left: 49.1px;
+    margin-left: 15px;
     width: 80%;
   }
   div.whatHome{
@@ -761,17 +761,20 @@ padding-bottom: 2%;
     padding-bottom: 30px;
   }
   div.sensorType{
-    margin-left: 10px;
+    margin-left:-6px;
+    width: fit-content;
     margin-top: 5.5%;
 float: left;
 font-size: 1.1em;
   }
   div.contact{
-    margin-left: 10px;
+    margin-left:-6px;
+    width: fit-content;
     font-size: 1.1em;
   }
   div.internet{
-    margin-left: 10px;
+    margin-left:-6px;
+    width: fit-content;
     font-size: 1.1em;
   
   
@@ -802,7 +805,8 @@ font-size: 1.1em;
        }
 
        div.forHome, div.forBell, div.forFridge{
-        margin-left: 1px;
+        margin-left:-8px;
+        width: fit-content;
         
        }
 
@@ -815,26 +819,57 @@ font-size: 1.1em;
         margin-right: 2%;
         margin-top: 5%;
        }
+       div.forSensor, div.forTractor, div.forStation{
+        margin-left:-8px;
+        width: fit-content;
+       }
        div.forRPM, div.forThermo, div.forWatch{
-        margin-left: 1px;
+        margin-left:-8px;
+    width: fit-content;
        }       
      
       div.finalHead, div.futureThoughts{
         font-size: 1.1em;
       }
 
-      .issueHome{
+     div.issueHome{
         margin-right: 10%;
       }
 
-      .issueOne{
+      div.issueOne{
         margin-left: 4%;
       }
 
       .issueTwo{
         margin-left: 4%;
       }  
-}
+
+      img#vs,img#neg, img#pos{
+  visibility: hidden;
+  position: relative;
+  top:0%
+      }
+
+      div.finalNegative{
+      position: relative;
+      top:-160px;
+      right: -25px;
+   
+      }
+
+      div.finalPositive{
+position: relative;
+top: -160px;
+left: -40px;
+      }
+
+      div.finalHead, div.futureThoughts{
+        font-size: 16pt;
+      }
+
+     
+  
+    }
 
  div.dontshow{
   display: none;
