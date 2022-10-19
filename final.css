@@ -14,10 +14,14 @@ body{
     font-size: 21px;
     background: #535e68;
     padding: 10px 20px 10px 20px;
+    margin-left: 15%;
     border: none;
-    display:flex;
+    display:block;
+    justify-content:center;
     position:sticky;
-    left: 42%;
+    /* left: 42%; */
+    float:left;
+    /* right:2% */
   
   }
   .hbutton:hover {
@@ -946,6 +950,8 @@ left: -40px;
       div.finalHead, div.futureThoughts{
         font-size: 16pt;
       }
+
+
 
      
   
