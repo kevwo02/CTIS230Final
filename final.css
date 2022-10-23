@@ -3,9 +3,7 @@ body{
 
 
 }
-
 .hbutton {
-
     font-family: 'Hammersmith One', sans-serif;
     font-size: 20px;
     color: white;
@@ -14,22 +12,24 @@ body{
     font-size: 21px;
     background: #535e68;
     padding: 10px 20px 10px 20px;
-    margin-left: 15%;
+    margin-left: 11.5px;
+    margin-right: 3px;
     border: none;
     display:block;
-    justify-content:center;
     position:sticky;
-    /* left: 42%; */
     float:left;
-    /* right:2% */
-  
   }
   .hbutton:hover {
-    background: #0c0d0f;
-    color: red;
+    background: red;
+    color: black;
     opacity: .6;
+    background: rgba(100, 0);
+    font-weight: 800;
+    letter-spacing: 1px;
+  
   }
 
+  
 
 div.NavBar{
 display: flex;
@@ -951,10 +951,6 @@ left: -40px;
         font-size: 16pt;
       }
 
-
-
-     
-  
     }
 
  div.dontshow{
