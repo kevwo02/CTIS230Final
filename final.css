@@ -12,11 +12,11 @@ body{
     font-size: 21px;
     background: #535e68;
     padding: 10px 20px 10px 20px;
-    margin-left: 11.5px;
+    margin-left: 8%;
     margin-right: 3px;
     border: none;
     display:block;
-    position:sticky;
+    position:relative;
     float:left;
   }
   .hbutton:hover {
@@ -710,7 +710,7 @@ div.header {
     height: 22%;
     position: static;
     float: right;
-   margin-right: 19%;
+   margin-right: 7%;
    margin-bottom: 2%;
   }
 
