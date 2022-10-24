@@ -1,8 +1,7 @@
 body{
    background-color: hsl(0, 33%, 47%);
-
-
 }
+/* home buttons */
 .hbutton {
     font-family: 'Hammersmith One', sans-serif;
     font-size: 20px;
@@ -11,7 +10,6 @@ body{
     text-align: center;
     border-radius: 8px;
     font-size: 21px;
-    /* background: #535e68; */
     padding: 10px 20px 10px 20px;
     margin-left: 8%;
     margin-top: 8%;
@@ -31,12 +29,24 @@ body{
   
   }
 
-  
+  div.boxes {
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 
+section{
+  display:block
+}
+
+/* Navigation bar */
 div.NavBar{
 display: flex;
 flex-direction: row;
- /* border: 2px dotted #a52a2a;  */
+
 background-color: hsl(0, 33%, 47%);
 height: 75px;
 margin-bottom: 2%; 
@@ -60,7 +70,6 @@ font-size: 1.2em;
 
 font-family: Arial, Helvetica, sans-serif;
 margin-bottom: 5%;
-/* border: 2px dotted white;   */
 text-align:center;
 justify-content:center;
 position:relative;
@@ -71,16 +80,15 @@ font-family: Arial, Helvetica, sans-serif;
 div.nb a{
     color:bisque
 }
+/* footer */
 div#footer{
     display: flex;
     background-color:hsl(0, 33%, 47%);
     color: wheat;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
-   
-   
-}
 
+}
 div.foot{
     width: 100%;
     font-size: 14pt;
@@ -91,35 +99,6 @@ div.foot{
     text-align: center;
     /* border: 2px dotted white */
 }
-
-div#footers{
-  display: flex;
-  background-color: black;
-  color: wheat;
-  font-family: Arial, Helvetica, sans-serif;
-position: relative;
-
-width: 100%;
-text-align: center;
-margin-top: 50%;
-
-
- 
-}
-div.foots{
-  width: 100%;
-  font-size: 14pt;
-  padding-top: 1em;
-  padding-bottom: 10px;
-  /* padding-bottom: 4em;
-  margin-top: 2em;
-  margin-bottom: 2em; */
-  text-align: center;
-  /* border: 2px dotted white */
-}
-
-
-
 h1{
     text-align: center;
     color: azure;
@@ -128,7 +107,7 @@ h1{
 }
 
 
-
+/* what iot page */
 div.wit{
     overflow: hidden;
     background-color: rosybrown;
@@ -195,7 +174,6 @@ div.whatHome{
     height: 90%;
 
 margin-right: -20px;
-    /* background-color: rgb(126, 101, 101); */
     padding-top: 2%;
     padding-bottom: 1%;
     width: 100%;
@@ -216,7 +194,7 @@ img#gHome{
    margin: 1em;
 }
 
-
+/* dropdown for types section */
 div.dropdown {
     width: 20%;
 padding-top: 1%;
@@ -227,7 +205,6 @@ font-size: 1.2em;
 
 margin-top: 4%;
 margin-bottom: 5%;
-/* border: 2px dotted white;   */
 text-align:left;
 justify-content:center;
 position: relative;
@@ -264,11 +241,7 @@ div.Tcontent {
     display: none;
     position: absolute;
     left: -5px;
-    
-   
 }
-
-
 div.Tcontent a{
     display: block;
     color: rgba(24, 16, 8,1);
@@ -290,6 +263,7 @@ a{
     text-decoration: none;
 }
 
+/* home page , this will be changed */
 div.homeCenter{
     text-align: center;
     background-color: rosybrown;
@@ -297,10 +271,8 @@ div.homeCenter{
 }
 
 div.headHome{
-     /* border: 3px dotted black;  */
     height: 100%;
  padding-left: 2%;
-    /* background-color: rgb(126, 101, 101); */
     padding-top: 1%;
 }
 
@@ -320,9 +292,6 @@ div.forHome{
   
     width: 90%;
     height: 25%;
-
-  
- 
 }
 
 div.forBell{
@@ -364,62 +333,31 @@ div.forFridge{
     
 }
 
-div.forSensor{
-    
-   overflow: hidden;
-    background-color: rosybrown;
-    margin-left: 26px;
-  
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 25px;
+/* agriculture page */
 
-    padding-top: 5px;
-    padding-bottom: 12px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    height: 25%;
-    width: 90%;
+section.fruitbasket{
+  text-align: center;
 }
-
-div.forTractor{
-
-    overflow: hidden;
-    background-color: rosybrown;
-    margin-left: 28px;
-  
-    margin-top: 23px;
-    margin-bottom: 45px;
-    padding-left: 25px;
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    height: 25%;
-    width: 90%;
+.newsBox {
+  width: 25%;
+  margin: 4%;
+  transition: background-color .1s;
+  transition: transform .5s;
+}
+.newsBox img {
+  border: 10px solid lightblue;
+  border-radius: 10%;
+  margin: 1% auto 0 auto;
+  padding: 0%;
+  display: block;
+  width: 80%;
 
 }
 
-div.forStation{
- 
-    overflow: hidden;
-    background-color: rosybrown;
-    margin-left: 28px;
-  
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 25px;
-  
-    padding-top: 10px;
-    padding-bottom: 15px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    height: 25%;
-    width: 90%;
- 
-}
 
+
+
+/* page for helathcare */
 div.headHealthcare{
     /* border: 3px dotted black; */
    
@@ -545,17 +483,12 @@ img#aw{
   margin-right: 21%;
 }
 div.headAgriculture{
-    /* border: 3px dotted black;  */
     height:100%;
  padding-left: 2%;
-    /* background-color: rgb(126, 101, 101); */
     padding-top: 2%;
     
 }
 img#sensImage{
-    
-
-
  width:30%;
  height: 40%;
  float:left;
@@ -565,8 +498,6 @@ margin-left:18%;
 margin-top:3%;
 }
 img#tractorImage{
-  
-
 width: 30%;
 height: 40%;
 float:right;
@@ -574,14 +505,9 @@ position:static;
 margin: .3em;
 margin-right: 14.3%;
 margin-top: 3%;
-
-
 }
-
 img#watImg{
-  
-
- width: 30%;
+   width: 30%;
     height: 40%;
     float:left;
     position:static;
@@ -596,7 +522,7 @@ div.header {
     text-align: center;
     background: rosybrown;
   }
-  
+  /* news page */
   div.headerNew{
     background-color: rosybrown;
     font-size: larger;
@@ -605,18 +531,11 @@ div.header {
   }
 
   div.leftcolumn {   
-   
     width: 100%;
-
- 
-
   }
   
   div.row{
     font-size: 1.2em;
-   
-
-    /* background-color: rgb(126, 101, 101); */
     padding-top: 2%;
     padding-bottom: 4%;
     padding-left: 5.1%;
@@ -797,9 +716,7 @@ div.issueTwo h1{
 
 div.issueHome{
 height: 90%;
-
 margin-right: -20px;
-/* background-color: rgb(126, 101, 101); */
 padding-top: 1.5%;
 padding-bottom: 2%;
 width: 100%;
@@ -830,7 +747,10 @@ padding-bottom: 2%;
   }
 
   img#imgsens{
-    margin-right: -16px;
+    padding-right:25px;
+    justify-content: center;
+  
+ 
   }
 
   img#gHome{
@@ -919,9 +839,6 @@ font-size: 1.1em;
       div.finalHead, div.futureThoughts{
         font-size: 1.1em;
       }
-
-     
-
       div.issueOne{
         margin-left: 4%;
       }
@@ -957,7 +874,7 @@ left: -40px;
 
  div.dontshow{
   display: none;
-  position: relative;
+
 }
 
 div.something{
@@ -1051,14 +968,6 @@ div.futureCaption{
     height: 150vh;
     z-index: -1; 
   }
-    /* width: 100vw;
-  height: 100vh;
-  object-fit:contain;
-  position: fixed;
-  left: 0vw;
-  top: 0vh;
-   /* z-index: -1;  */
-
    .finalHead{
     font-size: 1.8em;
     text-align: center;
