@@ -7,12 +7,14 @@ body{
     font-family: 'Hammersmith One', sans-serif;
     font-size: 20px;
     color: white;
+    background-color: black ;
     text-align: center;
     border-radius: 8px;
     font-size: 21px;
-    background: #535e68;
+    /* background: #535e68; */
     padding: 10px 20px 10px 20px;
     margin-left: 8%;
+    margin-top: 8%;
     margin-right: 3px;
     border: none;
     display:block;
@@ -20,7 +22,7 @@ body{
     float:left;
   }
   .hbutton:hover {
-    background: red;
+    background: orangered;
     color: black;
     opacity: .6;
     background: rgba(100, 0);
