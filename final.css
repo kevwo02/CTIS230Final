@@ -714,6 +714,32 @@ div.issueTwo h1{
 
 }
 
+div.issueTree{
+  overflow: hidden;
+  background-color: rosybrown;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 2%;
+  margin-bottom: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 2px;
+  font-size: 1.7em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width:80%;
+  text-align: center;
+  list-style-position:inside;
+}
+
+div.issueTree h1{
+  font-size: 1.8em;
+}
+
+div.issueTree li{
+  font-weight: lighter;
+}
+
 div.issueHome{
 height: 90%;
 margin-right: -20px;
@@ -1006,8 +1032,8 @@ div.issuetop{
     height:250px;
     position: static;
     float:left;
-   margin-top: -90px;
-   margin-left:-18px;
+   margin-top: -25px;
+   margin-left:-10px;
 }
 
 button{
