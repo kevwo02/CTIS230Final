@@ -31,7 +31,7 @@ body{
 
   div.boxes {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
