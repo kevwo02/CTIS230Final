@@ -5,8 +5,8 @@ body{
 .hbutton {
     font-family: 'Hammersmith One', sans-serif;
     font-size: 20px;
-    color: white;
-    background-color: black ;
+    color: black;
+    background-color: antiquewhite ;
     text-align: center;
     border-radius: 8px;
     font-size: 21px;
@@ -582,7 +582,7 @@ div.header {
     overflow: hidden;
     background-color: rosybrown;
     margin-left: 20px;
-    text-align: right;
+
     justify-content: right;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -663,7 +663,7 @@ div.header {
   }
 div.typeHead{
 margin-bottom: 5%;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   background: rosybrown;
 }
@@ -765,6 +765,13 @@ padding-bottom: 2%;
   padding-top: 5%;
  }
 
+ .hbutton{
+  padding: 8px 8px 8px 8px;
+ }
+ .homePage{
+  margin-top: 155px;
+ }
+
  
   div.wit{
     margin-left: 15px;
@@ -780,7 +787,9 @@ padding-bottom: 2%;
   }
 
   img#gHome{
-    margin-right: -18px;
+    margin-right: 101px;
+    margin-bottom: 20px;
+    margin-top: -3px;
   }
 
   div.history{
@@ -795,21 +804,21 @@ padding-bottom: 2%;
     padding-bottom: 30px;
   }
   div.sensorType{
-    margin-left:-6px;
-    width: fit-content;
+    margin-left:-15px;
+    width: 94.3%;
     margin-top: 5.5%;
 float: left;
-font-size: 1.1em;
+font-size: 1em;
   }
   div.contact{
-    margin-left:-6px;
-    width: fit-content;
-    font-size: 1.1em;
+    margin-left:-15px;
+    width: 94.3%;
+    font-size: 1em;
   }
   div.internet{
-    margin-left:-6px;
-    width: fit-content;
-    font-size: 1.1em;
+    margin-left:-15px;
+    width: 94.3%;
+    font-size: 1em;
   
   
   }
