@@ -902,11 +902,15 @@ font-size: 1em;
         font-size: 1.1em;
       }
       div.issueOne{
-        margin-left: 4%;
+        margin-left: 5.5%;
       }
 
-      div.issueTwo{
-        margin-left: 4%;
+      div.issueTwo {
+        margin-left: 5.5%;
+      }  
+
+      div.issueTree{
+        margin-left: 5.5%;
       }  
 
       img#vs,img#neg, img#pos{
