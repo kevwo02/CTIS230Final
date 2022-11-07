@@ -933,6 +933,13 @@ left: -40px;
       }
 
     }
+    .fbutt{
+      background-color: orchid;
+      color: white;
+      font-size: x-large;
+      cursor: pointer; 
+    }
+    
 
  div.dontshow{
   display: none;
@@ -943,6 +950,7 @@ div.something{
 
   display: flex;
   justify-content: center;
+ 
 }
 
 img#neg{
@@ -1065,18 +1073,8 @@ div.issuetop{
    margin-left:-10px;
 }
 
-button{
-  background-color: orchid;
-  color: white;
-  font-size: x-large;
-  cursor: pointer;
-  
-}
 
-button:hover{
-  background-color: red;
-  color: black;
-}
+
 
    
 
