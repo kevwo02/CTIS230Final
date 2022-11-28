@@ -760,8 +760,9 @@ padding-bottom: 2%;
 }
 #networkVideo{
   position: fixed;
-  right: 0;
-bottom: -1vh;
+  right: -100%;
+  top:auto;
+bottom: -10vh;
 min-width: 100%;
   z-index: -3; 
 }
