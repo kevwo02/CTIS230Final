@@ -761,7 +761,7 @@ padding-bottom: 2%;
 #networkVideo{
   position: fixed;
   right: 0;
-  bottom: 0;
+top:-0%;
 min-width: none;
   height: 150vh;
   z-index: -1; 
