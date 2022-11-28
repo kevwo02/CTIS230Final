@@ -350,7 +350,7 @@ section.iotEX{
   margin: 1% auto 0 auto;
   padding: 0%;
   display: block;
-  width: 80%;
+  width: 60%;
 
 }
 
@@ -774,7 +774,111 @@ min-width: none;
   margin-left: 12%;
 }
 
+.basketShowcaseBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.3em;
+}
 
+.showcaseBoxes img {
+  width: 55%;
+  height: 5%;
+  border-radius: 50px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+}
+section#Alexs div.showcaseBoxes img.basketShowcase{
+ width: 47%;
+ height: 5%;
+}
+
+section#Rooms div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+ }
+ section#Washes div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#Speaks div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#Ringo div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#Frin div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+section#HT div.showcaseBoxes img.basketShowcase{
+ width: 47%;
+ height: 5%;
+}
+
+section#noSens div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+ }
+ section#appWatch div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#ambi div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#xrr div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#lato div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+
+ }
+ section#WATTER div.showcaseBoxes img.basketShowcase{
+  width: 47%;
+  height: 5%;
+ }
+ 
+ section#SSENSOR div.showcaseBoxes img.basketShowcase{
+   width: 47%;
+   height: 5%;
+  }
+  section#TRACK div.showcaseBoxes img.basketShowcase{
+   width: 47%;
+   height: 5%;
+ 
+  }
+  section#Drones div.showcaseBoxes img.basketShowcase{
+   width: 47%;
+   height: 5%;
+ 
+  }
+  section#Cows div.showcaseBoxes img.basketShowcase{
+   width: 47%;
+   height: 5%;
+ 
+  }
+  section#Floors div.showcaseBoxes img.basketShowcase{
+   width: 47%;
+   height: 5%;
+ 
+  }
 
 @media (max-width : 700px){
 
@@ -854,6 +958,10 @@ font-size: 1em;
     width: 75%;
     height: 75%;
     border-radius: 50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
 }
  
   img#connecting{
