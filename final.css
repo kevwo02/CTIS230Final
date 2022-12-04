@@ -760,11 +760,11 @@ padding-bottom: 2%;
 }
 #networkVideo{
   position: fixed;
-  right: -100%;
+  right: -10px;
   top:auto;
 bottom: -10vh;
-min-width: 100%;
-  z-index: -3; 
+max-width: fit-content;
+  z-index: -1; 
 }
 .basketShowcase {
   width: 50%;
@@ -1009,15 +1009,15 @@ font-size: 1em;
         font-size: 1.1em;
       }
       div.issueOne{
-        margin-left: 5.5%;
+        margin-left: 4%;
       }
 
       div.issueTwo {
-        margin-left: 5.5%;
+        margin-left: 4%;
       }  
 
       div.issueTree{
-        margin-left: 5.5%;
+        margin-left: 4%;
       }  
 
       img#vs,img#neg, img#pos{
@@ -1042,6 +1042,13 @@ left: -40px;
       div.finalHead, div.futureThoughts{
         font-size: 16pt;
       }
+
+      img#vuln{
+        display: none;
+      }
+#networkVideo {
+  height: 150vh;
+}
 
     }
     .fbutt{
@@ -1180,8 +1187,8 @@ div.issuetop{
     height:250px;
     position: static;
     float:left;
-   margin-top: -25px;
-   margin-left:-10px;
+padding-bottom: 20px;
+   margin-left:45px;
 }
 
 
