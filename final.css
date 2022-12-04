@@ -884,7 +884,7 @@ section#noSens div.showcaseBoxes img.basketShowcase{
 @media (max-width : 700px){
 
  div.homeCaption{
-  padding-top: 3px;
+  padding-top: 0px;
  }
 
  .hbutton{
