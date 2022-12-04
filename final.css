@@ -162,7 +162,7 @@ div.history h1{
 }
 
 div.homeCaption{
-  padding-top: 22%;
+  padding-top: 15%;
 margin-top:-85px;
 margin-bottom: -200px;
  }
@@ -883,9 +883,7 @@ section#noSens div.showcaseBoxes img.basketShowcase{
 
 @media (max-width : 700px){
 
- div.homeCaption{
-  padding-top: 5%;
- }
+
 
  .hbutton{
   padding: 8px 8px 8px 8px;
