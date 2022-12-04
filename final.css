@@ -1050,6 +1050,10 @@ left: -40px;
   height: 150vh;
 }
 
+.newsBox img{
+width: 100%;
+}
+
     }
     .fbutt{
       background-color: orchid;
