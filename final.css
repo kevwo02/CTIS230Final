@@ -1131,7 +1131,7 @@ position: relative;
   color:springgreen;
   float: left;
   position: relative;
-  top:40px;
+  top:-50px;
 
   font-size: 1.3em;
 }
@@ -1139,10 +1139,10 @@ position: relative;
 #negList{
   text-align: center;
   list-style-position: inside;
-  color:maroon;
+  color:white;
   float: right;
   position: relative;
-top: 40px;
+top: -50px;
 right: 4%;
 font-size: 1.3em;
 }
@@ -1161,7 +1161,7 @@ div.futureCaption{
 
  
    .finalHead{
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1172,14 +1172,14 @@ div.futureCaption{
    
       font-size: 1.5em;
       text-align: center;
-  padding-top: 8%;
+  padding-top: 3.8%;
   padding-bottom: 3%;
       background-color:rosybrown
      }
 
    
 div.issueCaption{
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bolder;
   color: wheat;
   text-align: center;
