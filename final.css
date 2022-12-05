@@ -1049,6 +1049,10 @@ left: -40px;
       img#vuln{
         display: none;
       }
+
+      #posList, #negList{
+        display: none;
+      }
 #networkVideo {
   position: fixed;
      right: 0;
