@@ -1134,6 +1134,7 @@ position: relative;
   float: left;
   position: relative;
   top:-50px;
+  left: 16%;
 
   font-size: 1.3em;
 }
@@ -1145,7 +1146,7 @@ position: relative;
   float: right;
   position: relative;
 top: -50px;
-right: 4%;
+right: 16%;
 font-size: 1.3em;
 }
 
