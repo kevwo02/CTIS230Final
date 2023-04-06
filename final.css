@@ -18,6 +18,7 @@ body{
     display:block;
     position:relative;
     float:left;
+    cursor: pointer;
   }
   .hbutton:hover {
     background: orangered;
@@ -168,7 +169,7 @@ margin-bottom: -200px;
  }
 
  .homeCaption h1{
-  color: red;
+  color: hotpink;
  }
 div.whatHome{
     height: 90%;
@@ -1231,13 +1232,24 @@ padding-bottom: 20px;
   border-radius: 8px;
   font-size: 21px;
   padding: 10px 20px 10px 20px;
-  margin-left: 40%;
+  margin-left: 37%;
   margin-top: 8%;
   margin-right: 3px;
   border: none;
   display:block;
   position:relative;
 float:left;
+cursor: pointer;
+}
+
+#formButton:hover{
+  background: yellowgreen;
+  color: black;
+  opacity: .6;
+  background: rgba(100, 0);
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-left: 35%;
 }
 
 
